@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.Login{
+    height: 100vh;
+}
+
+.Login-box{
+    width: 400px;
+    height: 350px;
+    background-color: #00695C;
+    border-radius: 10px;
+}
+
+.Login, .Login-box, .Login-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Login-box-formbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-message{
+    color: red;
+}
+
+.Login-box-username,
+.Login-box-password{
+    font-size: 1.2em;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.Login-button-submit{
+    display: block;
+    margin: 12px auto;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: none;
+    font-size: 0.8em;
+    padding:5px 15px 5px 15px;
+    cursor: pointer;
+}
+
+.Login-box-username,
+.Login-box-password,
+.Login-button-submit,
+.Login-message{
+    font-family: 'MuseoModerno', sans-serif;
+}
+
+.Login-username-input{
+    width: 250px;
+    border-radius: 2px;
+    padding: 5px 4px 5px 4px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;
+}
+
+

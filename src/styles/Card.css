@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.Card{
+    margin-bottom: 2%;
+    display: flex;
+}
+.Card-img{
+    border-radius: 80px;
+    width: 125px;
+    height: auto;
+}
+
+.Card-text{
+    margin-right: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;
+}
